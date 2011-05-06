@@ -1,0 +1,21 @@
+Growl for windowsにJavaからnotifyを送信するライブラリです。
+Growl v.2.0.6 http://www.growlforwindows.com/
+仕様については以下を参考にしています。
+http://www.growlforwindows.com/gfw/help/gntp.aspx
+
+ライセンス
+CPL1.0
+
+確認した環境
+Winddows XP(SP3) 32bit
+Growl v.2.0.6 http://www.growlforwindows.com/
+JDK5.0以降
+
+Sampleについて
+Sample.javaをごらんください
+
+既知の問題
+・localhostにしかnotifyを送信できない
+	仕様上できるようです。未実装です。
+・Javadocがない
+	ごめんなさい。今書いてます。
