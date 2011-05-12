@@ -10,6 +10,10 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.kirino.growlforwindows.exception.GrowlException;
+import org.kirino.growlforwindows.model.Application;
+import org.kirino.growlforwindows.model.Notification;
+
 public class GrowlControler {
 	public static final String LINE_SEPARATOR = "\r\n";
 	public static final String SEQTION_SEPARATOR = "";
